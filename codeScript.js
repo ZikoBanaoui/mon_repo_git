@@ -8,3 +8,11 @@ var perso={
     return description;
     }
 };
+console.log(perso.decrire());
+
+//Aurora est blessé par une flèche
+perso.sante-=20;
+//Aurora trouve un bracelet de force
+perso.force+=10;
+
+console.log(perso.decrire());
